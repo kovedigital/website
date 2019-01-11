@@ -1,23 +1,22 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins');
-
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700');
 @import "_variables";
+@import '~@ninetynine/react-flex/dist/flex';
+@import "button";
 
 body {
     min-height: 100vh !important;
     background: linear-gradient(to bottom left, $gradient-top-right, $gradient-bottom-left);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-p, h1 {
-    color:white;
-    font-family: 'Poppins', 'sans-serif';
-    text-align: center;
     margin: 0;
 }
 
+p, h1, .btn {
+    color:white;
+    font-family: 'Poppins', 'sans-serif';
+    text-align: center;
+}
+
 h1 {
-    font-weight: bold;
+    font-weight: 600;
     font-size: 6em;
+    line-height: 0.8;
 }
