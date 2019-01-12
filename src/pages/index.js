@@ -5,7 +5,7 @@ import SEO from '../components/seo'
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO keywords={[`gatsby`, `application`, `react`]} />
     <Flex page column className="splash">
       <h1>Kove</h1>
       <p>Web Design and development based in Stafford, Staffordshire.</p>
