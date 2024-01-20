@@ -8,7 +8,7 @@ const IndexPage = () => (
     <SEO keywords={[`gatsby`, `application`, `react`]} />
     <Flex page column className="splash">
       <h1>Kove</h1>
-      <p>Web Design and development based in Stafford, Staffordshire.</p>
+      <p>Web Design and development based in Staffordshire, United Kingdom.</p>
       <a href="mailto:jared@kove.digital" className="btn btn-primary">Get in touch</a>
     </Flex>
   </Layout>
